@@ -4,7 +4,7 @@ app.listen(8000, function(){
 	console.log("server is running")
 })
 
-const mockUserData={
+const mockUserData=[
 {name:'Mark'},
 {name:'Jill'}
 ]
