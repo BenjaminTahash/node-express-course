@@ -5,13 +5,13 @@ app.listen(8000, function(){
 })
 
 const mockUserData=[
-{name:'Mark'},
-{name:'Jill'}
-]
-app.get('/users', function(req, res){
-	res.json({
-		success: true,
-		message 'successfully got users, Nice!
-		users: mockUserData
+	{name:'Mark'},
+	{name:'Jill'}
+	]
+	app.get('/users', function(req, res){
+		res.json({
+			success: true,
+			message 'successfully got users, Nice!',
+			users: mockUserData
+		})
 	})
-})
